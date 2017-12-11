@@ -17,6 +17,10 @@
     "url": "https://github.com/pradeepkumar-mst/salesforce.training/issues"
   },
   "homepage": "https://github.com/pradeepkumar-mst/salesforce.training#readme",
+  "devDependencies": {
+        "bower": "1.2.6"
+        //other dependencies are listed as well
+    },
   "dependencies": {
     "express": "^4.16.2"
   }
