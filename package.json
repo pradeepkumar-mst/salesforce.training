@@ -1,16 +1,11 @@
 {
   "name": "salesforce.training",
-  "engines": {
-    "node": "5.9.1"
-  },
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js",
-    "postinstall": "./node_modules/bower/bin/bower install"
-
+    "start" : "node app.js"
   },
   "repository": {
     "type": "git",
