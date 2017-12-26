@@ -10,6 +10,12 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.get('/thankyou', function(req, res) {
+	console.log('path = ', path.join(__dirname + '/thankyou.html'));
+    res.sendFile(path.join(__dirname + '/thankyou.html'));
+});
+
+
 app.listen(port);
 console.log('Magic happens on port ' + port); 			// shoutout to the user
 exports = module.exports = app; 						// expose app
