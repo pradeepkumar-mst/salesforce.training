@@ -1,5 +1,8 @@
 {
   "name": "salesforce.training",
+  "engines": {
+    "node": "5.9.1"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
