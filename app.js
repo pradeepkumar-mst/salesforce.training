@@ -15,6 +15,12 @@ app.get('/thankyou', function(req, res) {
     res.sendFile(path.join(__dirname + '/thankyou.html'));
 });
 
+app.get('/formpage', function(req, res) {
+	console.log('path = ', path.join(__dirname + '/formpage.html'));
+    res.sendFile(path.join(__dirname + '/formpage.html'));
+});
+
+
 
 app.listen(port);
 console.log('Magic happens on port ' + port); 			// shoutout to the user
