@@ -13,7 +13,23 @@ app.get('/', function(req, res) {
 app.get('/thankyou', function(req, res) {
 	console.log('path = ', path.join(__dirname + '/thankyou.html'));
     res.sendFile(path.join(__dirname + '/thankyou.html'));
+})
+
+app.get('/DSPQuoteTemplateAsPage', function(req, res) {
+	console.log('path = ', path.join(__dirname + '/DSPQuoteTemplateAsPage.html'));
+    res.sendFile(path.join(__dirname + '/DSPQuoteTemplateAsPage.html'));
 });
+
+app.get('/DSPQuoteTemplateAsPDF', function(req, res) {
+	console.log('path = ', path.join(__dirname + '/DSPQuoteTemplateAsPDF.html'));
+    res.sendFile(path.join(__dirname + '/DSPQuoteTemplateAsPDF.html'));
+});
+
+app.get('/DSPQuoteTemplateAsPDFAttach', function(req, res) {
+	console.log('path = ', path.join(__dirname + '/DSPQuoteTemplateAsPDFAttach.html'));
+    res.sendFile(path.join(__dirname + '/DSPQuoteTemplateAsPDFAttach.html'));
+});
+
 
 app.get('/formpage', function(req, res) {
 	console.log('path = ', path.join(__dirname + '/formpage.html'));
